@@ -1,0 +1,56 @@
+<resources>
+    <!-- Main -->
+    <string name="app_name" translatable="false">ContactsViewer</string>
+    <string name="app_field_is_not_empty_or_null">This field should not be empty!</string>
+    <string name="app_fields_have_error">Check the correctness of the entered data</string>
+    <string name="contact_status_mother">Mother</string>
+    <string name="contact_status_father">Father</string>
+    <string name="contact_status_brother">Brother</string>
+    <string name="contact_status_sister">Sister</string>
+    <string name="contact_status_grandfather">Grandfather</string>
+    <string name="contact_status_grandmother">Grandmother</string>
+    <string name="contact_status_friend">Friend</string>
+    <string name="contact_status_girlfriend">Girlfriend</string>
+    <string name="contact_status_doctor">Doctor</string>
+    <string name="contact_status_classmate">Classmate</string>
+    <string name="contact_status_roommate">Roommate</string>
+    <string name="contact_status_bestfriend">Best friend</string>
+    <string name="contact_status_husband">Husband</string>
+    <string name="contact_status_wife">Wife</string>
+    <string name="contact_status_aunt">Aunt</string>
+    <!-- Home -->
+    <string name="fragment_home_title">All Contacts</string>
+    <string name="fragment_home_aggregate_button_label">Apply filters</string>
+    <string name="fragment_home_apply_button_label">Apply</string>
+    <string name="fragment_home_search_field_placeholder">Enter a value to search for</string>
+    <string name="fragment_home_not_selected_variant">Not Selected</string>
+    <string name="fragment_home_sorting_title">Sorting by:</string>
+    <string name="fragment_home_sorting_by_name">By Name</string>
+    <string name="fragment_home_sorting_by_surname">By Surname</string>
+    <string name="fragment_home_sorting_by_status">By Status</string>
+    <string name="fragment_home_search_by_name">Name</string>
+    <string name="fragment_home_search_by_surname">Surname</string>
+    <string name="fragment_home_search_by_patronymic">Patronymic</string>
+    <string name="fragment_home_search_by_cell_phone">Cell phone</string>
+    <string name="fragment_home_search_by_home_phone">Home phone</string>
+    <string name="fragment_home_dir_asc">Ascending</string>
+    <string name="fragment_home_dir_desc">Descending</string>
+    <string name="fragment_home_filter_title">"Filtering by status: "</string>
+    <string name="fragment_home_search_title">Searching by:</string>
+    <!-- Edit contact -->
+    <string name="fragment_edit_contact_title">Contact</string>
+    <string name="fragment_edit_contact_name">Your name: </string>
+    <string name="fragment_edit_contact_name_placeholder">Enter your name</string>
+    <string name="fragment_edit_contact_surname">Your surname: </string>
+    <string name="fragment_edit_contact_surname_placeholder">Enter your surname</string>
+    <string name="fragment_edit_contact_patronymic">Your patronymic (optional): </string>
+    <string name="fragment_edit_contact_patronymic_placeholder">Enter your patronymic</string>
+    <string name="fragment_edit_contact_cell_phone">Cell phone: </string>
+    <string name="fragment_edit_contact_cell_phone_placeholder">Enter your cell phone</string>
+    <string name="fragment_edit_contact_home_phone">Home phone (optional): </string>
+    <string name="fragment_edit_contact_home_phone_placeholder">Enter your home phone</string>
+    <string name="fragment_edit_contact_status">Status: </string>
+    <string name="fragment_edit_contact_delete_button_label">Delete contact</string>
+    <string name="fragment_edit_contact_create_button_label">Add new contact</string>
+    <string name="fragment_edit_contact_update_button_label">Update contact</string>
+</resources>

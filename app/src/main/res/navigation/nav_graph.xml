@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.ribakova.contactsviewer.userInterface.HomeFragment"
+        android:label="@string/fragment_home_title"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_HomeFragment_to_editContactFragment"
+            app:destination="@id/editContactFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editContactFragment"
+        android:name="com.ribakova.contactsviewer.userInterface.EditContactFragment"
+        android:label="@string/fragment_edit_contact_title"
+        tools:layout="@layout/fragment_edit_contact" >
+        <argument
+            android:name="existingContact"
+            app:argType="com.ribakova.contactsviewer.domain.Contact"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>
